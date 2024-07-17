@@ -1,0 +1,19 @@
+ /* Style for navbar */
+ .navbar {
+    display: inline-block;
+    margin-right: 20px; /* Mengatur jarak dari teks "Selamat Datang" */
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px; /* Mengatur jarak antar item navbar */
+}
+
+.navbar a:hover {
+    background-color: #45a049;
+}

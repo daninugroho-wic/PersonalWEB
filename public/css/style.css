@@ -1,0 +1,9 @@
+body {
+    background-color: aqua;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 10;
+  }
