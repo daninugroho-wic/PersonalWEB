@@ -27,15 +27,15 @@ Route::get('/quotes', function () {
     return view('quotes');
 });
 
-// FOLDER CRUD
+// FOLDER ALL
 Route::get('/crud', function () {
-    return view('project.crud');
+    return view('all.crud');
 });
 Route::get('/kalkulator', function () {
-    return view('hal_project.kalkulator');
+    return view('all.kalkulator');
 });
 Route::get('/sticky', function () {
-    return view('hal_project.sticky');
+    return view('all.sticky');
 });
 
 Route::get('/crud', [UserController::class, 'index'])->name('user.index');

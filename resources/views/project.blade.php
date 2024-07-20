@@ -38,6 +38,13 @@
         </div>
     </div>
 
+    <body>
+        <h1>
+            halaman project
+        </h1>
+    </body>
+    
+
     <div id="content"></div>
     <script src="js/navbar.js"></script>
     <script src="js/content_project.js"></script>
