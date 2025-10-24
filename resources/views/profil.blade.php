@@ -12,7 +12,7 @@
         <a href="/" class="w3-bar-item w3-button">Home</a>
         <a href="/profil" class="w3-bar-item w3-button">Halaman Saya</a>
         <a href="/project" class="w3-bar-item w3-button">Halaman project</a>
-        <a href="/quotes" class="w3-bar-item w3-button">Halaman quotes</a>
+        <a href="/portofolio" class="w3-bar-item w3-button">Halaman portofolio</a>
         <a href="/rekap" class="w3-bar-item w3-button">Halaman rekap</a>
         <a href="/cv" class="w3-bar-item w3-button">Halaman cv</a>
         <a href="/about" class="w3-bar-item w3-button">Halaman About</a>
@@ -40,5 +40,23 @@
     </div>
     <script src="js/navbar.js"></script>
 </body>
+<style>
+     .w3-teal {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .w3-button.w3-large {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+
+    .w3-container {
+        flex-grow: 1;
+        text-align: left;
+    }
+</style>
 
 </html>

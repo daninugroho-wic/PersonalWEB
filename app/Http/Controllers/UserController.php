@@ -12,7 +12,7 @@ class UserController extends Controller
     public function index()
     {
         $users = User::latest('id')->get();
-        return view('project.crud.admin.crud', compact('users'));
+        return view('all.crud', compact('users'));
     }
 
     /**
